@@ -4,7 +4,7 @@ type: GenericCrafter
 hasPower: true
 hasItems: true
 itemCapacity: 45
-description: Larger version of [scarlet]Ectonite Forge[]. Produces Ectonite.
+description: Larger version of Ectonite Forge. Produces Ectonite.
 scaledHealth: 68
 size: 4
 outputItems: [
