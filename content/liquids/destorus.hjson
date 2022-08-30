@@ -1,0 +1,7 @@
+localizedName: Destorus
+heatCapacity: 0.4
+effect: wet
+boilPoint: 0.65
+color: E8895C
+type: Liquid
+research: thamonium
