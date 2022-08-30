@@ -1,0 +1,46 @@
+localizedName: Ectonite Crucible
+category: crafting
+type: GenericCrafter
+hasPower: true
+hasItems: true
+itemCapacity: 20
+description: Larger version of [scarlet]Ectonite Forge[]. Produces Ectonite.
+scaledHealth: 68
+size: 4
+outputItems: [
+	ectonite/6
+]
+craftTime: 240
+warmupSpeed: 1
+craftEffect: 
+updateEffect: pulverizeMedium
+updateEffectChance: 0.015
+consumes: {
+	power: 3
+	items: {
+		items: [
+			thamonium/4
+		]
+	}
+	/*liquids: {
+		liquids: []
+	}*/
+}
+requirements: [
+	copper/170
+	lead/134
+	silicon/85
+]
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawDefault
+		}
+		{
+			type: DrawRegion
+			suffix: -top
+		}
+	]
+}
+research: core-shard 
