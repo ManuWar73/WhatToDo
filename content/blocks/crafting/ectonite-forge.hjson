@@ -1,0 +1,47 @@
+localizedName: Ectonite Forge
+category: crafting
+type: GenericCrafter
+hasPower: true
+hasItems: true
+itemCapacity: 20
+description: Produces Ectonite.
+scaledHealth: 64
+size: 3
+outputItems: [
+	ectonite/3
+]
+craftTime: 240
+warmupSpeed: 1
+craftEffect: pulverizeMedium
+updateEffect: pulverizeMedium
+updateEffectChance: 0.015
+consumes: {
+	power: 3
+	items: {
+		items: [
+			copper/5
+			silicon/4
+			graphite/4
+		]
+	}
+}
+requirements: [
+	copper/170
+	lead/134
+	silicon/85
+]
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawDefault
+		}
+		{
+			type: DrawWarmupRegion
+		}
+		{
+			type: DrawRegion
+			suffix: -top
+		}
+	]
+}
