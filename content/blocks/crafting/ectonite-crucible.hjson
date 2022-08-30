@@ -37,6 +37,7 @@ drawer: {
 		}
 		{
 			type: DrawArcSmelt
+			flameRad: 2
 		}
 	]
 }
