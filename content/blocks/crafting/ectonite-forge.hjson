@@ -37,7 +37,14 @@ drawer: {
 			type: DrawDefault
 		}
 		{
+			type: DrawFlame
+			flameRadius: 6
+			lightRadius: 80
+		}
+		{
 			type: DrawArcSmelt
+			flameRad: 3.5
+			particles: 10
 		}
 	]
 }
