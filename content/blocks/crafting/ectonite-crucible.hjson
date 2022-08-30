@@ -16,10 +16,10 @@ craftEffect:
 updateEffect: pulverizeMedium
 updateEffectChance: 0.015
 consumes: {
-	power: 3
+	power: 7.5
 	items: {
 		items: [
-			thamonium/4
+			thamonium/5
 		]
 	}
 	/*liquids: {
