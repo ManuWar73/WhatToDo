@@ -3,7 +3,7 @@ category: crafting
 type: GenericCrafter
 hasPower: true
 hasItems: true
-itemCapacity: 20
+itemCapacity: 45
 description: Larger version of [scarlet]Ectonite Forge[]. Produces Ectonite.
 scaledHealth: 68
 size: 4
@@ -12,8 +12,8 @@ outputItems: [
 ]
 craftTime: 240
 warmupSpeed: 1
-craftEffect: 
-updateEffect: pulverizeMedium
+craftEffect: smeltsmoke
+updateEffect: smeltsmoke
 updateEffectChance: 0.015
 consumes: {
 	power: 7.5
@@ -22,9 +22,7 @@ consumes: {
 			thamonium/5
 		]
 	}
-	/*liquids: {
-		liquids: []
-	}*/
+	/*liquid: /5*/
 }
 requirements: [
 	copper/170
