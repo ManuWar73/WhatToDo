@@ -24,9 +24,8 @@ consumes: {
 	}
 }
 requirements: [
-	copper/170
-	lead/134
-	silicon/85
+	thamonium/85
+	morpherite/30
 ]
 drawer: {
 	type: DrawMulti
