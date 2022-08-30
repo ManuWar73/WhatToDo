@@ -6,7 +6,7 @@ hasItems: true
 itemCapacity: 20
 description: Produces Ectonite.
 scaledHealth: 64
-size: 3
+size: 2
 outputItems: [
 	ectonite/3
 ]
