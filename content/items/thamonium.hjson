@@ -1,6 +1,7 @@
 localizedName: Thamonium
 alwaysUnlocked: true
 cost: 0.01
+color: 8A73C6
 hardness: 1
 type: Item
 research: core-shard
