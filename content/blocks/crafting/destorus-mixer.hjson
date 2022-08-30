@@ -13,7 +13,7 @@ requirements: [
 	morpherite/45
 	ectonite/28
 ]
-outputLiquid: destorus/6
+outputLiquid: destorus/0.78
 consumes: {
 	power: 3.75
 	items: {
