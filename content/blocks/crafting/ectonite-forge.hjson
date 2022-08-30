@@ -19,7 +19,7 @@ consumes: {
 	power: 3
 	items: {
 		items: [
-			thamonium/5
+			thamonium/2
 		]
 	}
 }
@@ -33,9 +33,6 @@ drawer: {
 	drawers: [
 		{
 			type: DrawDefault
-		}
-		{
-			type: DrawWarmupRegion
 		}
 		{
 			type: DrawRegion
