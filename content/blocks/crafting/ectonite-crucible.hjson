@@ -22,12 +22,12 @@ consumes: {
 			thamonium/5
 		]
 	}
-	/*liquid: /5*/
+	liquid: destorus/0.2
 }
 requirements: [
-	copper/170
-	lead/134
-	silicon/85
+	thamonium/185
+	morpherite/160
+	ectonite/96
 ]
 drawer: {
 	type: DrawMulti
@@ -36,8 +36,7 @@ drawer: {
 			type: DrawDefault
 		}
 		{
-			type: DrawRegion
-			suffix: -top
+			type: DrawFlame
 		}
 	]
 }
