@@ -19,9 +19,7 @@ consumes: {
 	power: 3
 	items: {
 		items: [
-			copper/5
-			silicon/4
-			graphite/4
+			thamonium/5
 		]
 	}
 }
@@ -45,4 +43,4 @@ drawer: {
 		}
 	]
 }
-research: silicon-crucible
+research: core-shard
