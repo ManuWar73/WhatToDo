@@ -1,1 +1,7 @@
-
+localizedName: Biostone
+color: 73D188
+cost: 0.1
+flammability: 0.6
+explosiveness: 0.001
+type: Item
+research: ectonite
