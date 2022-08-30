@@ -1,0 +1,35 @@
+localizedName: Destorus Mixer
+description: Produces Destorus.
+type: GenericCrafter
+hasItems: true
+hasLiquids: true
+hasPower: true
+ambientSound: hum
+size: 2
+ambientSoundVolume: 0.03
+category: crafting
+requirements: [
+	thamonium/78
+	morpherite/45
+	ectonite/28
+]
+outputLiquid: destorus/6
+consumes: {
+	power: 3.75
+	items: {
+		items: [
+			thamonium/3
+			morpherite/1
+		]
+	}
+}
+drawer: [
+	{
+		type: DrawLiquidRegion
+		drawLiquid: destorus
+	}
+	{
+		type: DrawRegion
+		suffix: -top
+	}
+]
