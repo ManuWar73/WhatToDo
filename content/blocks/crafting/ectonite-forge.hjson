@@ -14,12 +14,15 @@ craftTime: 240
 warmupSpeed: 1
 craftEffect: pulverizeMedium
 updateEffect: pulverizeMedium
+ambientSoundVolume: 0.03
+ambientSound: hum
 updateEffectChance: 0.015
 consumes: {
 	power: 3
 	items: {
 		items: [
 			thamonium/2
+			morpherite/1
 		]
 	}
 }
@@ -34,8 +37,7 @@ drawer: {
 			type: DrawDefault
 		}
 		{
-			type: DrawRegion
-			suffix: -top
+			type: DrawArcSmelt
 		}
 	]
 }
